@@ -6,7 +6,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: "happy-dom",
-    setupFiles: "src/tests/setup.vitest.ts",
+    setupFiles: "tests/setup.vitest.ts",
     reporters: ["dot"],
   },
 });
