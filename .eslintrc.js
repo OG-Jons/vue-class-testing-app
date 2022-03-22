@@ -14,6 +14,8 @@ module.exports = {
     defineEmits: "readonly",
     defineExpose: "readonly",
     withDefaults: "readonly",
+    test: "readonly",
+    expect: "readonly",
   },
   extends: [
     "plugin:@typescript-eslint/recommended",
@@ -25,7 +27,8 @@ module.exports = {
   ],
   plugins: ["prettier", "@typescript-eslint"],
   rules: {
-    "no-unused-vars": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
   },
   ignorePatterns: ["dist"],
 };

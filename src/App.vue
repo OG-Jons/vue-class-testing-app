@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import CounterButtons from "./components/CounterButtons.vue";
+import Pokedex from "./components/Pokedex.vue";
 </script>
 
 <template id="app">
   <CounterButtons />
+  <Pokedex />
 </template>
 
 <style>
