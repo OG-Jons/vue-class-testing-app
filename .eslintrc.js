@@ -18,6 +18,7 @@ module.exports = {
     expect: "readonly",
   },
   extends: [
+    "plugin:@peeky/recommended",
     "plugin:@typescript-eslint/recommended",
     "eslint:recommended",
     "plugin:prettier/recommended",
