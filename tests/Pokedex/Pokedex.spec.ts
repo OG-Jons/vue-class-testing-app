@@ -1,5 +1,5 @@
 import { mount, VueWrapper } from "@vue/test-utils";
-import Pokedex from "../../components/Pokedex.vue";
+import Pokedex from "../../src/components/Pokedex.vue";
 
 test("Pokedex is mounted", async () => {
   expect(Pokedex).toBeTruthy();

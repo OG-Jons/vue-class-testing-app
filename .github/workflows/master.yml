@@ -23,8 +23,8 @@ jobs:
       - name: Install NPM packages
         run: npm ci
 
-      - name: Build project
-        run: npm run build
+      - name: Run Tests
+        run: npm run test
 
   build:
     name: Build

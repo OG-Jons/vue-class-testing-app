@@ -1,5 +1,5 @@
 import { mount, VueWrapper } from "@vue/test-utils";
-import CounterButtons from "../../components/CounterButtons.vue";
+import CounterButtons from "../../src/components/CounterButtons.vue";
 
 test("CounterButtons is mounted", async () => {
   const wrapper: VueWrapper = mount(CounterButtons);
