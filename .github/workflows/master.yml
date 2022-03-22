@@ -6,7 +6,6 @@ on:
       - master
 
 jobs:
-
   test:
     name: Test
     runs-on: ubuntu-latest
@@ -32,11 +31,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Build app
+        run: npm run build
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
         with:
           name: production-files
-          path: ./build
+          path: ./dist
 
   deploy:
     name: Deploy
