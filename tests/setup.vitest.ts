@@ -2,7 +2,7 @@ import { afterAll, afterEach, beforeAll } from "vitest";
 import { setupServer } from "msw/node";
 import { rest } from "msw";
 
-const testPokemon = {
+export const testPokemon = {
   name: "bulbasaur",
   sprites: {
     front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",

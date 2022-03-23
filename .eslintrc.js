@@ -16,6 +16,8 @@ module.exports = {
     withDefaults: "readonly",
     test: "readonly",
     expect: "readonly",
+    describe: "readonly",
+    it: "readonly",
   },
   extends: [
     "plugin:@typescript-eslint/recommended",
