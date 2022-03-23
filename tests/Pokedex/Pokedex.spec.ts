@@ -58,7 +58,5 @@ describe("Pokedex", () => {
 
     expect(wrapper.text()).toContain("Pokemon not found");
     expect(wrapper.html()).toContain("https://via.placeholder.com/150");
-
-    spy.mockClear();
   });
 });
